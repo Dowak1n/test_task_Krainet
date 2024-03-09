@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test task</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+
+  <body>
+    <div>
+      <div class="promo-background">
+        <div id="hamburgerWindow" class="hamburger-menu">
+          <div>
+            <button id="hamburgerClose" class="hamburger-menu__button">
+              <img src="assets/close.svg" alt="close icon" />
+            </button>
+            <nav>
+              <ul class="hamburger-menu__list">
+                <li class="hamburger-menu__list__item">
+                  <a href="/">ПРО МЕНЯ</a>
+                </li>
+                <li class="hamburger-menu__list__item">
+                  <a href="#experienceSection">МОЙ ОПЫТ</a>
+                </li>
+                <li class="hamburger-menu__list__item">
+                  <a href="/">МОИ НАВЫКИ</a>
+                </li>
+                <li class="hamburger-menu__list__item">
+                  <a href="/">МОИ РАБОТЫ</a>
+                </li>
+                <li class="hamburger-menu__list__item">
+                  <a href="/">ПРАЙС-ЛИСТ</a>
+                </li>
+                <li class="hamburger-menu__list__item">
+                  <a href="#contactsSection">КОНТАКТЫ</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="hamburger-menu__social-links">
+            <nav class="hamburger-menu__social-links__nav">
+              <a href="https://github.com/"
+                ><img src="assets/github.svg" alt="github icon"
+              /></a>
+              <a href="https://www.instagram.com/"
+                ><img src="assets/instagram.svg" alt="instagram icon"
+              /></a>
+              <a href="https://www.facebook.com/"
+                ><img src="assets/facebook.svg" alt="facebook icon"
+              /></a>
+            </nav>
+          </div>
+        </div>
+
+        <div id="promoBlock" class="promo-block">
+          <div class="promo-block__social-links">
+            <nav class="social-links__nav">
+              <a
+                class="social-links__nav__item"
+                href="https://www.facebook.com/"
+                ><img src="assets/facebook.svg" alt="facebook icon"
+              /></a>
+              <a
+                class="social-links__nav__item"
+                href="https://www.instagram.com/"
+                ><img src="assets/instagram.svg" alt="instagram icon"
+              /></a>
+              <a class="social-links__nav__item" href="https://github.com/"
+                ><img src="assets/github.svg" alt="github icon"
+              /></a>
+            </nav>
+            <div class="social-links__line"></div>
+            <span class="social-links__text">Социальные сети</span>
+          </div>
+
+          <div id="promiTitleBlock" class="promo-block__title-block">
+            <div class="title-block--margin">
+              <div class="title-block__name-container">
+                <div class="orange-circle--align-center orange-circle"></div>
+                <h4 class="title-block__name">Меня зовут Александра Смит</h4>
+              </div>
+
+              <h2 class="title-block__city">
+                Я web-разработчик<br />из города Москва
+              </h2>
+              <div>
+                <button class="title-block__button--margin button">
+                  Портфолио
+                </button>
+                <button class="button" disabled>Про меня</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="nav-menu">
+            <button id="hamburgerOpen" class="nav-menu__button">
+              <img src="assets/hamburger.svg" alt="hamburger icon" />
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-container">
+        <main class="main-block">
+          <section id="experienceSection" class="experience-section">
+            <div class="experience-section__header">
+              <div class="orange-circle--center orange-circle">
+                <h5 class="experience-section__header-text-h5">Опыт</h5>
+              </div>
+              <h3 class="experience-section__header-text-h3">
+                Чем я буду полезна
+              </h3>
+              <div class="orange-line--margin-bottom-60 orange-line"></div>
+            </div>
+
+            <div class="experience-section__experience-block">
+              <div class="experience-block--flex">
+                <div class="experience-block__figure">
+                  <div class="experience-block__circle"></div>
+                  <div class="experience-block__line"></div>
+                </div>
+
+                <div class="experience-block__body">
+                  <h5 class="experience-block__body__name">Образование</h5>
+                  <div class="experience-block__body--margin">
+                    <div class="experience-block__body__head">
+                      <div class="experience-block__body__figure">
+                        <div class="experience-block__body__line"></div>
+                        <div class="orange-circle">
+                          <img
+                            class="experience-block__body__icon"
+                            src="assets/university.svg"
+                            alt="university icon"
+                          />
+                        </div>
+                      </div>
+                      <div>
+                        <p class="experience-block__body__place">
+                          МГТУ им. Н. Э. Баумана
+                        </p>
+                        <p class="experience-block__body__reward">
+                          Диплом магистра | Москва (2014-2020)
+                        </p>
+                      </div>
+                    </div>
+                    <p class="experience-block__body__text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing
+                      elit, sed do eiusmo.
+                    </p>
+                  </div>
+
+                  <div>
+                    <div class="experience-block__body__head">
+                      <div class="experience-block__body__figure">
+                        <div class="experience-block__body__line"></div>
+                        <div class="orange-circle">
+                          <img
+                            class="experience-block__body__icon"
+                            src="assets/courses.svg"
+                            alt="university icon"
+                          />
+                        </div>
+                      </div>
+                      <div>
+                        <p class="experience-block__body__place">Udemy</p>
+                        <p class="experience-block__body__reward">
+                          Курсы по Web-разработке
+                        </p>
+                      </div>
+                    </div>
+                    <p class="experience-block__body__text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing
+                      elit, sed do eiusmo.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="experience-block--flex">
+                <div class="experience-block__figure">
+                  <div class="experience-block__circle"></div>
+                  <div class="experience-block__line"></div>
+                </div>
+
+                <div class="experience-block__body">
+                  <h5 class="experience-block__body__name">Опыт работы</h5>
+
+                  <div class="experience-block__body--margin">
+                    <div class="experience-block__body__head">
+                      <div class="experience-block__body__figure">
+                        <div class="experience-block__body__line"></div>
+                        <div class="orange-circle">
+                          <img
+                            class="experience-block__body__icon"
+                            src="assets/developer.svg"
+                            alt="university icon"
+                          />
+                        </div>
+                      </div>
+                      <div>
+                        <p class="experience-block__body__place">
+                          Front-End Developer
+                        </p>
+                        <p class="experience-block__body__reward">
+                          EPAM | Москва (2018-2019)
+                        </p>
+                      </div>
+                    </div>
+                    <p class="experience-block__body__text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing
+                      elit, sed do eiusmo.
+                    </p>
+                  </div>
+
+                  <div class="experience-block__body--margin">
+                    <div class="experience-block__body__head">
+                      <div class="experience-block__body__figure">
+                        <div class="experience-block__body__line"></div>
+                        <div class="orange-circle">
+                          <img
+                            class="experience-block__body__icon"
+                            src="assets/graphic.svg"
+                            alt="university icon"
+                          />
+                        </div>
+                      </div>
+                      <div>
+                        <p class="experience-block__body__place">
+                          UI/UX Designer
+                        </p>
+                        <p class="experience-block__body__reward">
+                          Squad Team | Москва (2018)
+                        </p>
+                      </div>
+                    </div>
+                    <p class="experience-block__body__text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing
+                      elit, sed do eiusmo.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="contactsSection" class="contacts-section">
+            <div class="contacts-section__picture">
+              <img src="assets/girl.jpg" alt="girl photo" />
+            </div>
+
+            <div class="contacts-section__form">
+              <div class="orange-circle--align-center orange-circle">
+                <h5 class="form__title title-block__name">Контакты</h5>
+              </div>
+              <h2 class="form__h2">Свяжитесь со мной</h2>
+              <div class="orange-line--margin-bottom-20 orange-line"></div>
+              <div class="form__text-phrase form__text-phrase--margin-20">
+                Любым удобным для вас способом:
+              </div>
+              <nav class="form__icons">
+                <a href="https://www.facebook.com/"
+                  ><img
+                    class="form__icons__item"
+                    src="assets/facebook.svg"
+                    alt="facebook icon"
+                /></a>
+                <a href="https://web.tlgrm.app/"
+                  ><img src="assets/telegram.svg" alt="telegram icon"
+                /></a>
+                <a href="https://www.instagram.com/"
+                  ><img
+                    class="form__icons__item"
+                    src="assets/instagram.svg"
+                    alt="instagram icon"
+                /></a>
+              </nav>
+              <div class="form__text-phrase form__text-phrase--margin-30">
+                Или оставьте ваши данные и я сама вам напишу:
+              </div>
+
+              <form id="form" class="form-inputs">
+                <div class="form-inputs--flex">
+                  <div class="form-inputs--margin">
+                    <label for="name" class="form-inputs__item-label"
+                      >Ваше имя</label
+                    >
+                    <input
+                      class="form-inputs__item"
+                      id="name"
+                      type="text"
+                      size="40"
+                    />
+                    <p id="errorName" class="form-inputs__error">
+                      Некорректно указано имя
+                    </p>
+                  </div>
+                  <div>
+                    <label for="email" class="form-inputs__item-label"
+                      >Ваша почта</label
+                    >
+                    <input
+                      class="form-inputs__item"
+                      id="email"
+                      type="text"
+                      size="40"
+                    />
+                    <p id="errorEmail" class="form-inputs__error">
+                      Некорректно указан email
+                    </p>
+                  </div>
+                </div>
+                <div class="form-inputs__textarea--margin">
+                  <label for="message" class="form-inputs__item-label"
+                    >Ваше сообщение</label
+                  >
+                  <textarea
+                    class="form-inputs__textarea"
+                    id="message"
+                  ></textarea>
+                </div>
+                <button class="button" type="submit" id="submitButton">
+                  Отправить сообщение
+                </button>
+              </form>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+
+    <script src="srcipts/script.js"></script>
+    <script src="srcipts/apiService.js"></script>
+    <script src="srcipts/nthFibo.js"></script>
+  </body>
+</html>
